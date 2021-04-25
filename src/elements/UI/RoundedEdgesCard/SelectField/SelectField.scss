@@ -1,0 +1,17 @@
+@import '../../../../variables';
+.select-field{
+    color: $color-primary;
+
+}
+.select-field:focus{
+    color: $color-primary;
+}
+.select-field{
+    &.borderless-select{
+       box-shadow: none;
+       outline: 0;
+       border:0;
+       font-weight: 500;
+       font-size: 14px;
+    }
+}

@@ -1,0 +1,91 @@
+@import "../../../variables";
+.stepper {
+    width: 70%;
+    div {
+        div {
+            div {
+                div:first-child[style*="background-color: rgb(248, 155, 50)"] {
+                    background: linear-gradient(345.96deg, #f89b32 -22.5%, #ffbd72 90%);
+                    border: 2px solid #f4972e !important;
+                    box-sizing: border-box;
+                    box-shadow: 0px 4px 10px rgba(248, 155, 50, 0.3);
+                    a:first-child {
+                        img:first-child {
+                            filter: none;
+                        }
+                    }
+                }
+                div:first-child {
+                    display: flex !important;
+                    justify-content: center;
+                    align-items: center;
+                    span:first-child {
+                        img:first-child {
+                            filter: invert(48%) sepia(88%) saturate(1494%) hue-rotate(181deg) brightness(95%)
+                                contrast(91%);
+                        }
+                    }
+                }
+                a {
+                    font-weight: 700 !important;
+                }
+                div {
+                    border-width: 2px !important;
+                }
+            }
+        }
+    }
+}
+.sm-header-icons .btn-group .btn {
+    padding: 0px 0px 0px 30px;
+}
+
+// media query for stepper
+@media (max-width: 1199px) {
+    .main-header .header-icons .btn-group {
+        padding-left: 25px;
+    }
+}
+@media (max-width: 991px) {
+    .stepper {
+        div {
+            div {
+                div {
+                    div:first-child {
+                        width: 58px !important;
+                        height: 58px !important;
+                    }
+                    div {
+                        top: 29px !important;
+                        left: 58px !important;
+                        margin-left: 0px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .stepper {
+        div {
+            div {
+                div {
+                    div:first-child {
+                        width: 40px !important;
+                        height: 40px !important;
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                    div {
+                        top: 20px !important;
+                        left: 40px !important;
+                        margin-left: 0px !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.popover {
+  border: none !important;
+  box-shadow: 0 5px 10px #007bff33;
+}
+
+table .fa-plus,
+table .fa-minus {
+  color: #015294;
+}
+.Open {
+  background-color: #00ff3a0d !important;
+}
+.table .fa-circle {
+  font-size: 10px !important;
+}
+.table {
+  margin-bottom: 0 !important;
+}
+/* .table .fa {
+  font-weight: 600 !important;
+  font-size: 13px;
+} */
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #fa9e36;
+  background-color: #fa9e36;
+}
+
+/* .card {
+  box-shadow: 1px 1px 15px #2185d014;
+} */

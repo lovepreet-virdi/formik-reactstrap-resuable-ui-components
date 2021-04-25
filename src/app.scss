@@ -1,0 +1,156 @@
+@import "./variables";
+
+hr {
+  border: 1px 0px 0px 0px solid $color-dark-grey;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 42px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+h4 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.row {
+  &.flex-row {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.btn {
+  border: 0px;
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:not(:disabled) {
+    &:not(.disabled).active {
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    &:not(.disabled) {
+      &:active {
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+
+.btn-color-hover {
+  color: $color-white;
+  &:hover {
+    color: $color-white;
+  }
+}
+
+.primary-btn {
+  background: $color-primary;
+  @extend .btn-color-hover;
+}
+
+.success-btn {
+  background: $color-green;
+  @extend .btn-color-hover;
+}
+
+.secondary-btn {
+  background: $moody-blue;
+  @extend .btn-color-hover;
+}
+
+.tertiary-btn {
+  background: $color-secondary;
+  @extend .btn-color-hover;
+}
+
+.cancel-btn {
+  background: $cancel;
+  color: $color-primary;
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.btn-group-wrap {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.error {
+  color: $color-red;
+}
+.text-danger {
+  color: $color-red !important;
+}
+
+.input-search {
+  position: relative;
+  width: 100%;
+  img {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    cursor: pointer;
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/*Note styling*/
+.m24 {
+  margin: 24px 0;
+}
+
+.form-check-input {
+  position: static;
+  margin-top: 0.3rem;
+  margin-left: 0px;
+}
+.row {
+  margin-bottom: 1rem;
+}
+[class*="col-"] {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 992px) {
+  .m-btm-5 {
+    margin-bottom: 3rem !important;
+  }
+  .row {
+    margin-bottom: 0px;
+  }
+  [class*="col-"] {
+    margin-bottom: 1rem;
+  }
+  .stepper {
+    div {
+      div {
+        div {
+          + a {
+            display: none !important;
+          }
+          div:nth-child(2) {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+}
