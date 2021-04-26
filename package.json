@@ -1,7 +1,7 @@
 {
-  "name": "formik-reactstrap-resuable-ui-components",
-  "version": "0.1.0",
-  "private": true,
+  "name": "formik-ui-components",
+  "version": "0.1.1",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -32,6 +32,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -49,5 +54,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/preset-react": "^7.13.13"
   }
 }
