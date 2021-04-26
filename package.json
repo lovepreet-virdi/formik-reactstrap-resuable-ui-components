@@ -1,6 +1,6 @@
 {
-  "name": "formik-ui-components",
-  "version": "0.1.0",
+  "name": "formik-resusable-components",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/index.js",
   "dependencies": {
@@ -32,7 +32,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepublish": "(if exist dist rmdir /s /q dist) && mkdir dist && babel ./src/ -d dist --copy-files",
-    "publish": "npm run prepublish && npm publish"
+    "publish:npm": "npm run prepublish && npm publish"
   },
   "babel": {
     "presets": [
