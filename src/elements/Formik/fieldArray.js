@@ -1,8 +1,8 @@
 import React from 'react'
 import { FieldArray, Field } from "formik";
 import "./styles.scss";
-import plusIcon from "../../../assets/svgs/plus.svg";
-import minusIcon from "../../../assets/svgs/minus.svg";
+import plusIcon from "../../assets/svgs/plus.svg";
+import minusIcon from "../../assets/svgs/minus.svg";
 const FieldArrayComponent = ({ arrayName = "", fieldPrefix = "", buttonLabel = "", data, ...props }) => {
     return (
         <FieldArray

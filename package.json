@@ -1,8 +1,8 @@
 {
   "name": "formik-ui-components",
-  "version": "0.1.4",
+  "version": "0.1.0",
   "private": false,
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -31,8 +31,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepublish": "babel src --out-dir lib",
-    "update": "npm run prepublish && npm publish"
+    "publish:npm": "(if exist dist rmdir /s /q dist) && mkdir dist && babel ./src/ -d dist --copy-files",
+    "update": "npm run publish:npm && npm publish"
   },
   "babel": {
     "presets": [
