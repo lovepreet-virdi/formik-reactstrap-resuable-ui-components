@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a collection of Resusable UI compoennts designed with Formik, reactstrap, react-table and bootstrap for directly injecting in any reactjs application (Version>16.8)
+This is a collection of Resusable UI components designed with Formik, reactstrap, react-table and bootstrap for directly injecting in any reactjs application (Version>16.8)
 ## Available Components
 
 ### Login
