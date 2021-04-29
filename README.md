@@ -3,9 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This is a collection of Resusable UI components designed with Formik, reactstrap, react-table and bootstrap for directly injecting in any reactjs application (Version>16.8)
+
+prerequisite:- Formik
 ## Available Components
 
-### Login
 
 ### Reactstrap
 #### Collapsable Section
@@ -15,6 +16,7 @@ This is a collection of Resusable UI components designed with Formik, reactstrap
 #### Custom buttons
 #### Modal
 #### Note
+#### Label
 
 ### Formik components
 #### Checkbox
@@ -22,7 +24,6 @@ This is a collection of Resusable UI components designed with Formik, reactstrap
 #### Date Picker
 #### Field Array
 #### Input
-#### Label
 #### Multiselect
 #### Single Select
 #### Text Area
