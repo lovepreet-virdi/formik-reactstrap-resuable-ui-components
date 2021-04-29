@@ -32,6 +32,56 @@ prerequisite:- Formik
 
 ## Available Scripts
 
+## Basic example
+<code>
+import './App.css';
+import React from 'react';
+import { FormikControl, ButtonComponent } from "formik-resusable-components";
+import { Formik, Form } from "formik";
+
+const App = () => {
+  const handleSubmit = (values) => {
+    alert("hello");
+  }
+  return (
+    <>
+      <Formik
+        initialValues={{
+          customerName: "",
+          customerRole: ""
+        }}
+        onSubmit={handleSubmit}
+      >
+        {(formProps) => (
+          <Form>
+            <FormikControl
+              name="customerName"
+              label="Customer name"
+              control="input"
+              isErrorMsg={false}
+            />
+            <FormikControl
+              name="customerRole"
+              label="Customer Role"
+              control="select"
+              options={[{ key: "Role 1", value: "role1" }, { key: "Role 2", value: "role2" }]}
+              isErrorMsg={false}
+            />
+            <ButtonComponent type="submit">Save</ButtonComponent>
+          </Form>
+        )}
+      </Formik>
+    </>
+  );
+}
+
+
+export default App;
+
+<code>
+
+
+
 In the project directory, you can run:
 
 ### `npm start`
