@@ -33,7 +33,7 @@ prerequisite:- Formik
 ## Available Scripts
 
 ## Basic example
-<code>
+```
 import './App.css';
 import React from 'react';
 import { FormikControl, ButtonComponent } from "formik-resusable-components";
@@ -78,7 +78,7 @@ const App = () => {
 
 export default App;
 
-<code>
+```
 
 
 
