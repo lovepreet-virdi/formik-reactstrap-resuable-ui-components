@@ -67,6 +67,13 @@ const App = () => {
               options={[{ key: "Role 1", value: "role1" }, { key: "Role 2", value: "role2" }]}
               isErrorMsg={false}
             />
+            <FormikControl
+              name="isActive"
+              isLabelOnLeft
+              label="Active"
+              control="checkbox"
+              isErrorMsg={false}
+            />
             <ButtonComponent type="submit">Save</ButtonComponent>
           </Form>
         )}
