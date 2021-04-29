@@ -30,8 +30,6 @@ prerequisite:- Formik
 
 ### React-Table
 
-## Available Scripts
-
 ## Basic example
 ```
 import './App.css';
@@ -88,6 +86,7 @@ export default App;
 ```
 
 
+## Available Scripts
 
 In the project directory, you can run:
 

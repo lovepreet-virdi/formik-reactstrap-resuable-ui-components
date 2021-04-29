@@ -1,6 +1,6 @@
 {
   "name": "formik-resusable-components",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage":"https://github.com/lovepreet-virdi/formik-resusable-components",
   "private": false,
   "main": "dist/index.js",
