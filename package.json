@@ -1,7 +1,7 @@
 {
   "name": "formik-resusable-components",
-  "version": "0.1.6",
-  "homepage":"https://github.com/lovepreet-virdi/formik-resusable-components",
+  "version": "0.1.9",
+  "homepage": "https://github.com/lovepreet-virdi/formik-resusable-components",
   "private": false,
   "main": "dist/index.js",
   "devDependencies": {
@@ -34,8 +34,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepublish": "(if exist dist rmdir /s /q dist) && mkdir dist && babel ./src/ -d dist --copy-files",
-    "publish:npm": "npm run prepublish && npm publish"
+    "scss": "node-sass dist -o dist",
+    "babel:npm": "(if exist dist rmdir /s /q dist) && mkdir dist && babel ./src/ -d dist --copy-files"
+  
   },
   "babel": {
     "presets": [
@@ -60,7 +61,6 @@
       "last 1 safari version"
     ]
   },
-
   "keywords": [
     "formik",
     "reactstrap",
