@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Collapse, CardBody, Card } from 'reactstrap';
 import arrowDown from '../../../assets/svgs/arrow_down.svg';
 import arrowUp from '../../../assets/svgs/arrow_up.svg';
-import "./collapseableSection.scss";
+import "./CollapseableSection.scss";
 
 const CollapseableSection = ({ label="", children }) => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,10 +1,10 @@
 {
   "name": "formik-resusable-components",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "homepage": "https://github.com/lovepreet-virdi/formik-resusable-components",
   "private": false,
   "main": "dist/index.js",
-  "devDependencies": {
+  "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
@@ -35,7 +35,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "scss": "node-sass dist -o dist",
-    "babel:npm": "(if exist dist rmdir /s /q dist) && mkdir dist && babel ./src/ -d dist --copy-files"
+    "babel:npm": "(if exist dist rmdir /s /q dist) && mkdir dist && babel ./src/ -d dist --copy-files && npm run scss"
   
   },
   "babel": {

@@ -2,7 +2,6 @@ import React from "react";
 import { Field, ErrorMessage } from "formik";
 import TextError from "./TextError";
 import Label from "./Label";
-// import LookupMultiDropDown from "Components/Elements/Graphs/LookupMultiDropDown";
 import { Dropdown } from "semantic-ui-react";
 
 export default function MultiSelect({ label, name, options, ...rest }) {

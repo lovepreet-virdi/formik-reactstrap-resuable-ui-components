@@ -4,7 +4,7 @@ import Select from "./Select";
 import MultiSelect from "./MultiSelect";
 import Checkbox from "./Checkbox";
 import DatePicker from "./DatePicker"
-
+import React from "react";
 function FormikControl(props) {
   const { control, ...rest } = props;
   switch (control) {

@@ -2,6 +2,7 @@ import { Field, FieldArray, useField } from "formik";
 import "./styles.scss";
 import plusIcon from "../../assets/svgs/plus.svg";
 import minusIcon from "../../assets/svgs/minus.svg";
+import React from "react";
 const CustomField = ({ name = "", label = "" }) => {
   const [field] = useField(name);
 

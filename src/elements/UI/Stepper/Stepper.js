@@ -1,6 +1,6 @@
 import React from 'react'
 import Stepper from 'react-stepper-horizontal';
-import "./stepper.scss";
+import "./Stepper.scss";
 import partSearch from "../../../assets/svgs/part_search.svg";
 import shopingBasket from "../../../assets/svgs/shoping_basket.svg";
 import customerDetails from "../../../assets/svgs/customer_details.svg";
