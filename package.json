@@ -1,13 +1,10 @@
 {
   "name": "formik-resusable-components",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/lovepreet-virdi/formik-resusable-components",
   "private": false,
   "main": "dist/index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
     "dayjs": "^1.10.4",
     "font-awesome": "^4.7.0",
@@ -23,7 +20,12 @@
     "react-tooltip": "^4.2.17",
     "reactstrap": "^8.9.0",
     "semantic-ui-react": "^2.0.3",
-    "styled-components": "^5.2.3",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
     "web-vitals": "^1.1.1",
     "@babel/cli": "^7.13.16",
     "@babel/preset-react": "^7.13.13",
@@ -36,7 +38,6 @@
     "eject": "react-scripts eject",
     "scss": "node-sass dist -o dist",
     "babel:npm": "(if exist dist rmdir /s /q dist) && mkdir dist && babel ./src/ -d dist --copy-files && npm run scss"
-  
   },
   "babel": {
     "presets": [
